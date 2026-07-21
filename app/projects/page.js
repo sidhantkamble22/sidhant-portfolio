@@ -6,6 +6,41 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const Projects = () => {
      const projects = [
+    {
+  title: "TrackWise AI",
+  image: "/trackwise.jpg",
+  description:
+  "TrackWise AI is a full-stack AI-powered personal finance management platform that enables users to track income, expenses, savings, and budgets with an intuitive dashboard. It features secure transaction management, financial analytics, and AI-generated insights powered by the Groq API, delivering a fast, responsive, and user-friendly experience.",
+  tech: [
+    "Next.js",
+    "React.js",
+    "JavaScript",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+"Groq API"
+  ],
+  github: "https://github.com/sidhantkamble22/trackwise-ai",
+  demo: "https://trackwise-ai-eta.vercel.app/",
+},
+
+{
+  title: "Personal Portfolio",
+  image: "/portfolio.jpg",
+  description:
+    "A modern and fully responsive personal portfolio website built to showcase my projects, technical skills, experience, and contact information. Designed with smooth animations, clean UI, SEO optimization, and a mobile-first approach to provide an engaging user experience.",
+  tech: [
+    "Next.js",
+    "React.js",
+    "JavaScript",
+    "Tailwind CSS",
+    "AOS",
+    "Responsive Design"
+  ],
+  github: "https://github.com/sidhantkamble22/sidhant-portfolio",
+  demo: "https://sidhant-portfolio-tau.vercel.app/"
+},
   {
     title: "Blood donation camp",
     image: "/blood.jpg",
@@ -192,20 +227,20 @@ const technologies = new Set(
             className="w-full h-44 object-cover transition duration-500 hover:scale-105"
           />
 
-          {/* Content */}
+          
           <div className="p-6">
 
-            {/* Title */}
+           
             <h2 className="text-xl font-bold text-white">
               {project.title}
             </h2>
 
-            {/* Description */}
+            
             <p className="text-slate-400 text-sm leading-7 mt-3">
               {project.description}
             </p>
 
-            {/* Tech Stack */}
+            
             <div className="flex flex-wrap gap-2 mt-5">
               {project.tech.map((item, i) => (
                 <span

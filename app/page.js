@@ -18,6 +18,41 @@ import { useEffect } from "react";
 export default function Home() {
   const projects = [
   {
+  title: "TrackWise AI",
+  image: "/trackwise.jpg",
+  description:
+  "TrackWise AI is a full-stack AI-powered personal finance management platform that enables users to track income, expenses, savings, and budgets with an intuitive dashboard. It features secure transaction management, financial analytics, and AI-generated insights powered by the Groq API, delivering a fast, responsive, and user-friendly experience.",
+  tech: [
+    "Next.js",
+    "React.js",
+    "JavaScript",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+"Groq API"
+  ],
+  github: "https://github.com/sidhantkamble22/trackwise-ai",
+  demo: "https://trackwise-ai-eta.vercel.app/",
+},
+
+{
+  title: "Personal Portfolio",
+  image: "/portfolio.jpg",
+  description:
+    "A modern and fully responsive personal portfolio website built to showcase my projects, technical skills, experience, and contact information. Designed with smooth animations, clean UI, SEO optimization, and a mobile-first approach to provide an engaging user experience.",
+  tech: [
+    "Next.js",
+    "React.js",
+    "JavaScript",
+    "Tailwind CSS",
+    "AOS",
+    "Responsive Design"
+  ],
+  github: "https://github.com/sidhantkamble22/sidhant-portfolio",
+  demo: "https://sidhant-portfolio-tau.vercel.app/"
+},
+    {
     title: "Blood donation camp",
     image: "/blood.jpg",
     description:
@@ -77,9 +112,19 @@ useEffect(() => {
       data-aos="fade-down"
       className="relative z-10 flex items-center"
     >
-      <div className="w-16 h-16 rounded-2xl bg-[#0f172a] border border-cyan-500/30 flex items-center justify-center">
-         <HiCodeBracket className="text-cyan-400 text-4xl" />
-     </div>
+     <div className="relative w-20 h-20">
+  <div className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 animate-spin [animation-duration:8s]"></div>
+
+  <div className="absolute inset-[3px] rounded-full bg-[#07142b]"></div>
+
+  <Image
+    src="/Sidhantprofile.jpeg"
+    alt="Sidhant Kamble"
+    fill
+    className="absolute inset-[6px] rounded-full object-cover border-2 border-[#07142b]"
+    priority
+  />
+</div>
 
       <div className="ml-4">
         <span className="text-sky-400 font-bold tracking-widest text-sm">
