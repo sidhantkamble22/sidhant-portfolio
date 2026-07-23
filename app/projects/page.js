@@ -74,6 +74,23 @@ const Projects = () => {
     demo: "https://bajarang-enterprises-all-supplement.vercel.app/",
     
   },
+  {
+  title: "Accredian Enterprise Clone",
+  image: "/accredian.jpg",
+  description:
+    "A modern and responsive enterprise learning platform built with Next.js and Tailwind CSS. The project features reusable React components, responsive design, Framer Motion animations, API integration for testimonials, and a lead capture form using Next.js API Routes, showcasing clean architecture and modern frontend development practices.",
+  tech: [
+    "Next.js",
+    "React.js",
+    "JavaScript",
+    "Tailwind CSS",
+   
+    
+    
+  ],
+  github: "https://github.com/sidhantkamble22/accredian-enterprise-clone",
+  demo: "https://accredian-enterprise-clone-eight-nu.vercel.app/",
+},
 
   {
     title: "BitLinks",

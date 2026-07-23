@@ -120,7 +120,8 @@ useEffect(() => {
   <Image
     src="/Sidhantprofile.jpeg"
     alt="Sidhant Kamble"
-    fill
+    width={80}
+  height={80}
     className="absolute inset-[6px] rounded-full object-cover border-2 border-[#07142b]"
     priority
   />
