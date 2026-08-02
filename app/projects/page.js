@@ -53,6 +53,21 @@ const Projects = () => {
    
   },
   {
+  title: "Swamini Rental House",
+  image: "/swamini.jpg",
+  description:
+    "A modern and responsive rental house website built for Swamini Rental House. The platform showcases outfits for pre-wedding, maternity, baby shoot, fashion shoot, traditional wear, and special events. Designed with a premium UI, smooth animations, and mobile-first responsiveness to provide an elegant browsing experience.",
+  tech: [
+    "Next.js",
+    "React.js",
+    "JavaScript",
+    "Tailwind CSS",
+    "Responsive Design",
+  ],
+  github: "https://github.com/sidhantkamble22/swamini-rental-house",
+  demo: "https://swanimi-renatl-house.vercel.app/",
+},
+  {
     title: "Complaient Manegement",
     image: "/rel.jpg",
     description:
