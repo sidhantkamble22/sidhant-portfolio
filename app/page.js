@@ -117,13 +117,13 @@ useEffect(() => {
 
   <div className="absolute inset-[3px] rounded-full bg-[#07142b]"></div>
 
-  <Image
-    src="/Sidhantprofile.jpeg"
+   <Image
+    src="/SidhantProfile.jpeg"
     alt="Sidhant Kamble"
-    width={80}
-  height={80}
-    className="absolute inset-[6px] rounded-full object-cover border-2 border-[#07142b]"
+    width={68}
+    height={68}
     priority
+    className="absolute inset-[5px] h-[68px] w-[68px] rounded-full border-2 border-[#07142b] object-cover"
   />
 </div>
 

@@ -89,6 +89,30 @@ const Projects = () => {
     demo: "https://bajarang-enterprises-all-supplement.vercel.app/",
     
   },
+  
+{
+  title: "StudyBloom",
+
+  image: "/study.jpg",
+
+  description:
+    "A modern and responsive study productivity web application designed to help users stay focused and organized. StudyBloom includes a study timer, task management, progress tracking, and a clean motivational interface that makes study sessions more structured and engaging.",
+
+  tech: [
+    "Next.js",
+    "React.js",
+    "JavaScript",
+    "Tailwind CSS",
+    "React Hooks",
+  
+  ],
+
+  github: "https://github.com/sidhantkamble22/study-bloom",
+
+  demo: "https://study-bloom-plum.vercel.app/",
+},
+
+
   {
   title: "Accredian Enterprise Clone",
   image: "/accredian.jpg",
@@ -106,6 +130,28 @@ const Projects = () => {
   github: "https://github.com/sidhantkamble22/accredian-enterprise-clone",
   demo: "https://accredian-enterprise-clone-eight-nu.vercel.app/",
 },
+
+{
+  title: "Tic-Tac-Toe Web Application",
+
+  image: "/tictac.jpg",
+
+  description:
+    "A modern and interactive Tic-Tac-Toe web application built with HTML, CSS, and JavaScript. The game features two-player mode, an AI opponent powered by the Minimax algorithm, score tracking, winning combination detection, custom result dialogs, toast notifications, and a fully responsive premium interface.",
+
+  tech: [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    
+  ],
+
+  github: "https://github.com/sidhantkamble22/PRODIGY_WD_03",
+
+  demo: "https://prodigy-wd-03-three-pi.vercel.app/",
+},
+
+
 
   {
     title: "BitLinks",
